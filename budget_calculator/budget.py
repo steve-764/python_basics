@@ -1,18 +1,3 @@
-# Instructions
-# •	Ask for the user's name and monthly salary (as an int).
-# •	Ask for 4 monthly expenses by name and amount 
-# - all as int: rent, food, transport, other.
-# •	Calculate total_expenses = sum of all 4 expenses.
-# •	Calculate savings = salary - total_expenses.
-# •	Calculate savings_percent = (savings / salary) × 100.
-# Print a full budget report using f-strings, showing:
-# •	Name and salary
-# •	Each expense on its own line
-# •	Total expenses
-# •	Savings amount
-# •	Savings as a percentage, rounded to 1 decimal place
-
-
 name = input("Enter your name : ")
 salary = int(input("Enter your monthly salary : "))
 print()
